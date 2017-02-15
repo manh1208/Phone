@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_current_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10sp">
+
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_friend" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android simulator"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:id="@+id/txt_own_name"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nhà mạng:"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/txt_contactlist_nhamang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:text="Không xác định"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

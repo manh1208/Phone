@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1"
+                android:id="@+id/dialpad_one"
+                android:paddingBottom="@dimen/dialpad_number_pading_vertical"
+                android:paddingTop="@dimen/dialpad_number_pading_vertical"
+                android:textColor="@color/color_number_dialpad"
+                android:textSize="@dimen/dialpad_number_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="2"
+                android:paddingBottom="@dimen/dialpad_number_pading_vertical"
+                android:id="@+id/dialpad_two"
+                android:paddingTop="@dimen/dialpad_number_pading_vertical"
+                android:textColor="@color/color_number_dialpad"
+                android:textSize="@dimen/dialpad_number_size" />
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="abc"-->
+                <!--android:textColor="@color/color_number_dialpad"-->
+                <!--android:textSize="@dimen/dialpad_alphabet_size" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="3"
+                android:paddingBottom="@dimen/dialpad_number_pading_vertical"
+                android:paddingTop="@dimen/dialpad_number_pading_vertical"
+                android:id="@+id/dialpad_three"
+                android:textColor="@color/color_number_dialpad"
+                android:textSize="@dimen/dialpad_number_size" />
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="def"-->
+                <!--android:textColor="@color/color_number_dialpad"-->
+                <!--android:textSize="@dimen/dialpad_alphabet_size" />-->
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="4"
+                android:paddingBottom="@dimen/dialpad_number_pading_vertical"
+                android:id="@+id/dialpad_four"
+                android:paddingTop="@dimen/dialpad_number_pading_vertical"
+                android:textColor="@color/color_number_dialpad"
+                android:textSize="@dimen/dialpad_number_size" />
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="ghi"-->
+                <!--android:textColor="@color/color_number_dialpad"-->
+                <!--android:textSize="@dimen/dialpad_alphabet_size" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="5"
+                android:id="@+id/dialpad_five"
+                android:paddingBottom="@dimen/dialpad_number_pading_vertical"
+                android:paddingTop="@dimen/dialpad_number_pading_vertical"
+                android:textColor="@color/color_number_dialpad"
+                android:textSize="@dimen/dialpad_number_size" />
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="jkl"-->
+                <!--android:textColor="@color/color_number_dialpad"-->
+                <!--android:textSize="@dimen/dialpad_alphabet_size" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="6"
+                android:paddingBottom="@dimen/dialpad_number_pading_vertical"
+                android:id="@+id/dialpad_six"
+                android:paddingTop="@dimen/dialpad_number_pading_vertical"
+                android:textColor="@color/color_number_dialpad"
+                android:textSize="@dimen/dialpad_number_size" />
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="mno"-->
+                <!--android:textColor="@color/color_number_dialpad"-->
+                <!--android:textSize="@dimen/dialpad_alphabet_size" />-->
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="7"
+                android:paddingBottom="@dimen/dialpad_number_pading_vertical"
+                android:paddingTop="@dimen/dialpad_number_pading_vertical"
+                android:id="@+id/dialpad_seven"
+                android:textColor="@color/color_number_dialpad"
+                android:textSize="@dimen/dialpad_number_size" />
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="pqrs"-->
+                <!--android:textColor="@color/color_number_dialpad"-->
+                <!--android:textSize="@dimen/dialpad_alphabet_size" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="8"
+                android:paddingBottom="@dimen/dialpad_number_pading_vertical"
+                android:paddingTop="@dimen/dialpad_number_pading_vertical"
+                android:id="@+id/dialpad_eight"
+                android:textColor="@color/color_number_dialpad"
+                android:textSize="@dimen/dialpad_number_size" />
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="tuv"-->
+                <!--android:textColor="@color/color_number_dialpad"-->
+                <!--android:textSize="@dimen/dialpad_alphabet_size" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="9"
+                android:paddingBottom="@dimen/dialpad_number_pading_vertical"
+                android:paddingTop="@dimen/dialpad_number_pading_vertical"
+                android:id="@+id/dialpad_nine"
+                android:textColor="@color/color_number_dialpad"
+                android:textSize="@dimen/dialpad_number_size" />
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="wxyz"-->
+                <!--android:textColor="@color/color_number_dialpad"-->
+                <!--android:textSize="@dimen/dialpad_alphabet_size" />-->
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dialpad_number_pading_vertical"
+                android:paddingTop="@dimen/dialpad_number_pading_vertical"
+                android:text="*"
+                android:id="@+id/dialpad_star"
+                android:textColor="@color/color_number_dialpad"
+                android:textSize="@dimen/dialpad_number_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:paddingBottom="@dimen/dialpad_number_pading_vertical"
+                android:paddingTop="@dimen/dialpad_number_pading_vertical"
+                android:id="@+id/dialpad_zero"
+                android:textColor="@color/color_number_dialpad"
+                android:textSize="@dimen/dialpad_number_size" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="#"
+                android:paddingBottom="@dimen/dialpad_number_pading_vertical"
+                android:paddingTop="@dimen/dialpad_number_pading_vertical"
+                android:id="@+id/dialpad_thang"
+                android:textColor="@color/color_number_dialpad"
+                android:textSize="@dimen/dialpad_number_size" />
+            >
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_add_user"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:background="@drawable/button_call_dialpad"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_call"
+                android:tint="#fff"
+                android:scaleType="fitCenter"
+                android:padding="5sp"
+                android:id="@+id/btn_call_dialpad"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_keypad"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_delete_dialpad"
+                android:id="@+id/dialpad_delete"
+                android:background="@null"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

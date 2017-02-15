@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="10sp"
+                android:background="#fff"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:padding="15sp"
+                    android:src="@drawable/ic_rate" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Đánh giá"
+                            android:textColor="#000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+            android:id="@+id/layout_hot_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="10sp"
+            android:background="#fff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:padding="15sp"
+                android:src="@drawable/ic_hot_game" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hot game"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout_like_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="10sp"
+                android:background="#fff"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:padding="15sp"
+                    android:src="@drawable/ic_like_us" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Like Us"
+                            android:textColor="#000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout_about_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="10sp"
+                android:background="#fff"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:padding="10sp"
+                    android:src="@drawable/img_utilities" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Giới thiệu"
+                            android:textColor="#000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

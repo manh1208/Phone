@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viettel"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:id="@+id/txt_operation_name_diff"
+        android:textSize="18sp"
+        />
+    <!--<ImageButton-->
+        <!--android:layout_width="23sp"-->
+        <!--android:layout_height="23sp"-->
+        <!--android:src="@drawable/ic_star_brow"-->
+        <!--android:background="@null"-->
+        <!--android:id="@+id/btn_favorite_diff"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:layout_alignParentRight="true"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0sp"
+        android:layout_marginLeft="20sp"
+        android:layout_below="@+id/txt_operation_name_diff">
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_operation_name_diff"
+            android:text="01259251208"
+            android:textColor="#000"
+            android:textSize="23sp"
+            android:id="@+id/txt_number_diff"
+            android:layout_marginTop="10sp"
+            />
+        <ImageButton
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="30sp"
+            android:layout_margin="5sp"
+            android:background="@null"
+            android:src="@drawable/ic_call"
+            android:scaleType="fitCenter"
+
+            android:id="@+id/btn_diff_call"/>
+        <ImageButton
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="30sp"
+            android:layout_margin="5sp"
+            android:background="@null"
+            android:src="@drawable/ic_sms"
+            android:scaleType="fitCenter"
+            android:id="@+id/btn_diff_sms"/>
+
+    </LinearLayout>
+</RelativeLayout>

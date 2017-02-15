@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginTop="10sp"
+    android:orientation="horizontal"
+    android:background="#fff"
+    android:id="@+id/layout_about_us">
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:src="@drawable/img_utilities"
+        android:padding="10sp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_utilities_title"
+            android:text="Số điện thoại cần thiết"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_utilities_description"
+            android:text="Tra cứu số điện thoại taxi, cứu hộ..."
+            android:textSize="13sp"
+            />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f4f3f3"
+    android:orientation="vertical"
+    android:paddingTop="10sp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:padding="20sp">
+        <ImageView
+            android:id="@+id/iv_group_icon"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:src="@drawable/img_utilities"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/txt_expandable_group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taxi"
+            android:textColor="@color/colorPrimary"
+            android:layout_toRightOf="@id/iv_group_icon"
+            android:layout_marginLeft="10sp"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ic_expanded"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="8sp"
+            android:src="@drawable/ic_down" />
+    </RelativeLayout>
+</RelativeLayout>

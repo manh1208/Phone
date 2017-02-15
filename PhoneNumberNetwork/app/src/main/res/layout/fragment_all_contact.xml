@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="#fff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_header"
+        android:orientation="horizontal"
+        android:layout_margin="5sp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tìm kiếm"
+            android:drawableLeft="@drawable/ic_search_black"
+            android:layout_toLeftOf="@+id/btn_add_contact"
+            android:drawablePadding="10sp"
+            android:layout_marginRight="10sp"
+            android:id="@+id/txt_search_contact"
+            android:descendantFocusability="beforeDescendants"
+            android:drawableTint="@color/colorPrimary"
+            android:focusableInTouchMode="true"/>
+        <ImageButton
+            android:id="@+id/btn_add_contact"
+            android:layout_centerHorizontal="true"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/ic_add_contact_black"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:padding="5sp"
+            android:tint="@color/colorPrimary"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout_header"
+        android:layout_above="@+id/bannerLayout">
+
+        <ListView
+            android:id="@+id/lv_contactlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#fff"
+            android:dividerHeight="0sp"
+            android:scrollbars="none"
+
+            tools:listitem="@layout/item_contact_list"/>
+
+        <ListView
+            android:id="@+id/side_bar"
+            android:layout_width="10sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="2sp"
+            android:divider="#fff"
+            android:dividerHeight="0sp"
+            tools:listitem="@layout/item_side" />
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/bannerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal" >
+    </LinearLayout>
+</RelativeLayout>
+
+

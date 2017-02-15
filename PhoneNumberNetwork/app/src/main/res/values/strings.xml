@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tìm Số Nội Mạng Để Tiết Kiệm</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8272403203330390/5209889468</string>
+    <string-array name="array_city">
+        <item>Hà Nội</item>
+        <item>Đà Nẵng</item>
+        <item>Hồ Chí Minh</item>
+    </string-array>
+</resources>
